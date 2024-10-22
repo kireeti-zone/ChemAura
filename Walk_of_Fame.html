@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walk Of Fame- Event Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Open+Sans:wght@400&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fbf7f7;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Customized Title */
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #99ff99, #ffcc00); /* Green to yellow gradient */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .event-date {
+            font-size: 25px;
+            margin-bottom: 15px;
+            color: #f8f6f6;
+            font-family: serif;
+
+        }
+
+        .event-description {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #f8f6f6;
+            font-family: serif; /* Changed to monospace font */
+        }
+
+        .rules-container {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 2px rgba(255, 255, 0, 0.6); /* Yellow shadow */
+            text-align: left;
+        }
+
+        .rules-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .rules-list {
+            list-style-type: disc;
+            margin-left: 40px;
+            font-size: 16px;
+            color: #f0f0f0;
+            line-height: 1.6;
+        }
+
+        .rules-list li {
+            margin-bottom: 10px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .submit-button {
+            margin-top: 20px;
+            background-color: #99ff99; /* Light green */
+            color: #333;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .submit-button:hover {
+            background-color: #88e088; /* Slightly darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Walk Of Fame</h1>
+        <div class="event-date">Event Date: November 8 , 2024</div>
+        
+        <div class="event-description">
+            The Walk of Fame game is played by the last 2 teams. The Teams need to complete a snake & ladders game with solving a few puzzles.
+
+        </div>
+
+        <div class="rules-container">
+            <h2>Rules & Regulations</h2>
+            <ul class="rules-list">
+                <li>It is a Buzzer round.
+                </li>
+                <li>Team pressing the buzzer first will be given a chance to answer the question in 20 seconds.
+                </li>
+                <li>If answered correctly, The team will roll the dice and move accordingly and they will be given the chance to choose the category for the next question.
+                </li>
+                <li>A category will contain a maximum of 5 questions.
+                </li>
+                <li>The top two teams that reach the highest position on the board will win. 
+                </li>
+                <li>Rules  mentioned above might be changed as per the timing, probability and availability
+                </li>
+               
+            </ul>
+           <a href="./temp.html"><button class="submit-button">Back to home</button></a>
+        </div>
+    </div>
+</body>
+</html>
